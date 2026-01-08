@@ -1,7 +1,9 @@
 {
   description = "Flake de fondo de pantallas";
 
-  outputs = { self }: {
-    imagenes = ./fondos;
-  };
+  outputs =
+    { self }:
+    {
+      imagenes = ./fondos;
+    };
 }
